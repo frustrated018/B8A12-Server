@@ -9,7 +9,8 @@ const applyMiddlewares=(app)=>{
             LOCAL_CLIENT,
             CLIENT
           ],
-          credentials: true,
+          // credentials: true, 
+          // TODO: Remove comment when you use jwt
         })
       );
       app.use(express.json());
