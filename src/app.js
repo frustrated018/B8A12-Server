@@ -1,9 +1,15 @@
 const express = require("express");
 const applyMiddlewares = require("./middlewares/applyMiddlewares");
 const connectDB = require("./DB/connectDB");
-require("dotenv").config;
+require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 5000;
+
+// Products route
+const productRoutes = require('./routes/products/ProductRoutes')
+app.use('/products', productRoutes)
+
+// this is not working getting "Cannot GET /products" this error
 
 // Applying middlewares
 applyMiddlewares(app);
