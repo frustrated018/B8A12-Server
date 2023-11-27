@@ -1,5 +1,6 @@
 const express = require("express");
 const applyMiddlewares = require("./middlewares/applyMiddlewares");
+const connectDB = require("./DB/connectDB");
 require("dotenv").config;
 const app = express();
 const port = process.env.PORT || 5000;
@@ -11,6 +12,11 @@ app.get("/health", (req, res) => {
   res.send("Tech trends is predicting trends....");
 });
 
-app.listen(port, () => {
-  console.log(`Tech treds server is running on port ${port}`);
-});
+const main = async () => {
+  await connectDB();
+  app.listen(port, () => {
+    console.log(`Tech trends server is running on port ${port}`);
+  });
+};
+
+main();
