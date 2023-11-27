@@ -7,6 +7,7 @@ const port = process.env.PORT || 5000;
 
 // Applying middlewares
 applyMiddlewares(app);
+
 // Products route
 const productRoutes = require("./routes/products/ProductRoutes");
 app.use("/products", productRoutes);

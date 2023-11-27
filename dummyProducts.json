@@ -1,6 +1,5 @@
 [
   {
-    "productId": 1,
     "name": "Smartphone X",
     "image": "https://source.unsplash.com/random/500x500/?tech",
     "tags": ["mobile", "smartphone", "tech", "communication"],
@@ -11,7 +10,6 @@
     "longDescription": "The Smartphone X is a cutting-edge device designed for seamless communication and advanced functionality. With a powerful processor, stunning display, and innovative features, it's the perfect companion for your busy lifestyle."
   },
   {
-    "productId": 2,
     "name": "Laptop Pro",
     "image": "https://source.unsplash.com/random/500x500/?tech",
     "tags": ["laptop", "technology", "productivity", "computing"],
@@ -22,7 +20,6 @@
     "longDescription": "Introducing the Laptop Pro, a powerhouse designed for professionals seeking top-notch performance. With a sleek design, high-resolution display, and advanced computing capabilities, it's your go-to device for productivity on the go."
   },
   {
-    "productId": 3,
     "name": "Wireless Earbuds Pro",
     "image": "https://source.unsplash.com/random/500x500/?tech",
     "tags": ["audio", "earbuds", "wireless", "music"],
@@ -33,7 +30,6 @@
     "longDescription": "Experience music like never before with our Wireless Earbuds Pro. These earbuds deliver a truly immersive audio experience with the latest wireless technology, ensuring crystal-clear sound and ultimate comfort for extended listening sessions."
   },
   {
-    "productId": 4,
     "name": "Gaming Console X",
     "image": "https://source.unsplash.com/random/500x500/?tech",
     "tags": ["gaming", "console", "entertainment", "technology"],
@@ -44,7 +40,6 @@
     "longDescription": "Immerse yourself in the world of gaming with the Gaming Console X. Boasting next-gen graphics and powerful performance, this console delivers an unparalleled gaming experience. Get ready for breathtaking visuals and responsive gameplay like never before."
   },
   {
-    "productId": 5,
     "name": "Smart Watch Pro",
     "image": "https://source.unsplash.com/random/500x500/?tech",
     "tags": ["wearable", "smartwatch", "fitness", "health"],
