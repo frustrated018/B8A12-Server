@@ -2,17 +2,17 @@
 
 ## Features
 
-### 1. User Authentication
+### User Authentication
 
 - Implemented JWT-based user authentication to secure API endpoints.
 - Utilized cookies for storing and managing authentication tokens.
 
-### 2. MongoDB Integration
+### MongoDB Integration
 
 - Established a connection to MongoDB Atlas Using Mongoose for seamless data storage and retrieval.
 - Organized data into collections for rooms, bookings, and reviews.
 
-### 5. Review System
+### Review System
 
 - Integrated APIs for fetching and submitting reviews for Products.
 - Utilized MongoDB to store and retrieve review data.
