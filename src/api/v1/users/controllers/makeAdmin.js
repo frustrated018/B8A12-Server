@@ -1,7 +1,7 @@
 const User = require("../../../../Models/UserSchema");
 const { ObjectId } = require("mongoose").Types;
 
-const setUserRole = async (req, res) => {
+const makeAdmin = async (req, res) => {
   const id = req.params.id;
   const filter = { _id: new ObjectId(id) };
   const updatedDoc = {
@@ -13,4 +13,4 @@ const setUserRole = async (req, res) => {
   res.send(result);
 };
 
-module.exports = setUserRole;
+module.exports = makeAdmin;

@@ -1,7 +1,7 @@
 const addNewUser = require("../../api/v1/users/controllers/addNewUser");
 const deleteUser = require("../../api/v1/users/controllers/deleteUser");
 const getAllUsers = require("../../api/v1/users/controllers/getAllUsers");
-const setUserRole = require("../../api/v1/users/controllers/setUserRole");
+const makeAdmin = require("../../api/v1/users/controllers/makeAdmin");
 const verifyToken = require("../../middlewares/verifyToken");
 const User = require("../../Models/UserSchema");
 const { ObjectId } = require("mongoose").Types;
@@ -16,7 +16,7 @@ router.post("/add", verifyToken, addNewUser);
 // Delete User
 router.delete("/delete/:id", verifyToken, deleteUser);
 
-// set Role for user
-router.patch("/makeadmin/:id", verifyToken, setUserRole);
+// set Role for user [Make Admin]
+router.patch("/makeadmin/:id", verifyToken, makeAdmin);
 
 module.exports = router;
