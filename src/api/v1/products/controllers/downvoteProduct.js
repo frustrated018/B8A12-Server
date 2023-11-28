@@ -6,7 +6,7 @@ const downvoteProduct = async (req, res) => {
   try {
     const result = await Product.updateOne(
       { _id: id },
-      { $inc: { downvoteCount: -1 } }
+      { $inc: { downvoteCount: 1 } }
     );
 
     if (!result) {
