@@ -1,14 +1,15 @@
 const User = require("../../Models/UserSchema");
+const verifyToken = require("../../middlewares/verifyToken");
 const { ObjectId } = require("mongoose").Types;
 
 const router = require("express").Router();
 
-router.get("/", async (req, res) => {
+router.get("/", verifyToken, async (req, res) => {
   const result = await User.find();
   res.send(result);
 });
 
-router.post("/add", async (req, res) => {
+router.post("/add", verifyToken, async (req, res) => {
   try {
     const newUser = req.body.userInfo;
     const query = { email: newUser.email };
@@ -33,7 +34,7 @@ router.post("/add", async (req, res) => {
 });
 
 // Delete User
-router.delete("/delete/:id", async (req, res) => {
+router.delete("/delete/:id", verifyToken, async (req, res) => {
   try {
     const id = req.params.id;
     const query = { _id: new ObjectId(id) };
@@ -45,7 +46,7 @@ router.delete("/delete/:id", async (req, res) => {
   }
 });
 
-router.patch("/makeadmin/:id", async (req, res) => {
+router.patch("/makeadmin/:id", verifyToken, async (req, res) => {
   const id = req.params.id;
   const filter = { _id: new ObjectId(id) };
   const updatedDoc = {
