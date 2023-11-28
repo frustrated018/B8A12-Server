@@ -5,6 +5,7 @@ const downvoteProduct = require("../../api/v1/products/controllers/downvoteProdu
 const findAllProducts = require("../../api/v1/products/controllers/findAllProducts");
 const findApprovedProducts = require("../../api/v1/products/controllers/findApprovedProducts");
 const findPendingProducts = require("../../api/v1/products/controllers/findPendingProducts");
+const findProductByEmail = require("../../api/v1/products/controllers/findProductByEmail");
 const findProductById = require("../../api/v1/products/controllers/findProductById");
 const upvoteProduct = require("../../api/v1/products/controllers/upvoteProduct");
 
@@ -20,6 +21,9 @@ router.get("/pendingproducts", findPendingProducts);
 
 // Update product status to approved
 router.post("/statusapprove/:id", approveProduct);
+
+// Find products based on email
+router.get("/myproducts/:email", findProductByEmail);
 
 router.get("/details/:id", findProductById);
 
