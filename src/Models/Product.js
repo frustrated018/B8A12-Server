@@ -3,7 +3,7 @@ const { model, Schema } = require("mongoose");
 const ProductSchema = new Schema({
   name: {
     type: String,
-    required: true, // Make the name a required field
+    required: true,
   },
   image: {
     type: String,
@@ -15,11 +15,11 @@ const ProductSchema = new Schema({
   },
   upvoteCount: {
     type: Number,
-    default: 0, 
+    default: 0,
   },
   downvoteCount: {
     type: Number,
-    default: 0, 
+    default: 0,
   },
   timestamp: {
     type: Date,
@@ -34,8 +34,24 @@ const ProductSchema = new Schema({
   },
   productStatus: {
     type: String,
-    enum: ["pending", "approved", "rejected"], // Use an enum for productStatus to limit possible values
+    enum: ["pending", "approved", "rejected"],
     default: "pending",
+  },
+  externalLinks: {
+    type: [String],
+  },
+  productOwner: {
+    name: {
+      type: String,
+      required: true,
+    },
+    email: {
+      type: String,
+      required: true,
+    },
+    image: {
+      type: String,
+    },
   },
 });
 
