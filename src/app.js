@@ -12,6 +12,10 @@ applyMiddlewares(app);
 const productRoutes = require("./routes/products/ProductRoutes");
 app.use("/products", productRoutes);
 
+// Users route
+const usersRoutes = require("./routes/users/usersRoutes");
+app.use("/users", usersRoutes);
+
 // this is not working getting "Cannot GET /products" this error
 
 app.get("/health", (req, res) => {
