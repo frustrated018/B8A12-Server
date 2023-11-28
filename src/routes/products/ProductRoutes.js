@@ -1,5 +1,6 @@
 const Product = require("../../Models/Product");
 const AddProduct = require("../../api/v1/products/controllers/AddProducts");
+const approveProduct = require("../../api/v1/products/controllers/ApproveProduct");
 const downvoteProduct = require("../../api/v1/products/controllers/downvoteProduct");
 const findAllProducts = require("../../api/v1/products/controllers/findAllProducts");
 const findApprovedProducts = require("../../api/v1/products/controllers/findApprovedProducts");
@@ -16,6 +17,9 @@ router.get("/approvedproducts", findApprovedProducts);
 
 // find pending products
 router.get("/pendingproducts", findPendingProducts);
+
+// Update product status to approved
+router.post("/statusapprove/:id", approveProduct);
 
 router.get("/details/:id", findProductById);
 
