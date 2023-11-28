@@ -1,13 +1,11 @@
 const User = require("../../Models/UserSchema");
+const getAllUsers = require("../../api/v1/users/controllers/getAllUsers");
 const verifyToken = require("../../middlewares/verifyToken");
 const { ObjectId } = require("mongoose").Types;
 
 const router = require("express").Router();
 
-router.get("/", verifyToken, async (req, res) => {
-  const result = await User.find();
-  res.send(result);
-});
+router.get("/", verifyToken, getAllUsers); //
 
 router.post("/add", verifyToken, async (req, res) => {
   try {
