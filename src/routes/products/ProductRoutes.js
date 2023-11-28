@@ -2,6 +2,8 @@ const Product = require("../../Models/Product");
 const AddProduct = require("../../api/v1/products/controllers/AddProducts");
 const downvoteProduct = require("../../api/v1/products/controllers/downvoteProduct");
 const findAllProducts = require("../../api/v1/products/controllers/findAllProducts");
+const findApprovedProducts = require("../../api/v1/products/controllers/findApprovedProducts");
+const findPendingProducts = require("../../api/v1/products/controllers/findPendingProducts");
 const findProductById = require("../../api/v1/products/controllers/findProductById");
 const upvoteProduct = require("../../api/v1/products/controllers/upvoteProduct");
 
@@ -10,27 +12,10 @@ const router = require("express").Router();
 router.get("/", findAllProducts);
 
 // find approved products
-router.get("/approvedproducts", async (req, res) => {
-  try {
-    const approvedProducts = await Product.find({ productStatus: "approved" });
-    res.json(approvedProducts);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: "Internal Server Error" });
-  }
-});
-
+router.get("/approvedproducts", findApprovedProducts);
 
 // find pending products
-router.get("/pendingproducts", async (req, res) => {
-  try {
-    const pendingProducts = await Product.find({ productStatus: "pending" });
-    res.json(pendingProducts);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: "Internal Server Error" });
-  }
-});
+router.get("/pendingproducts", findPendingProducts);
 
 router.get("/details/:id", findProductById);
 
