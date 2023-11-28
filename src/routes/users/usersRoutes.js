@@ -1,35 +1,14 @@
-const User = require("../../Models/UserSchema");
+const addNewUser = require("../../api/v1/users/controllers/addNewUser");
 const getAllUsers = require("../../api/v1/users/controllers/getAllUsers");
 const verifyToken = require("../../middlewares/verifyToken");
+const User = require("../../Models/UserSchema");
 const { ObjectId } = require("mongoose").Types;
 
 const router = require("express").Router();
 
-router.get("/", verifyToken, getAllUsers); //
+router.get("/", verifyToken, getAllUsers);
 
-router.post("/add", verifyToken, async (req, res) => {
-  try {
-    const newUser = req.body.userInfo;
-    const query = { email: newUser.email };
-    const existingUser = await User.findOne(query);
-
-    if (existingUser) {
-      return res
-        .status(400)
-        .send({ message: "User already exists", insertedId: null });
-    }
-
-    const result = await User.create(newUser);
-    res
-      .status(201)
-      .send({ message: "User created successfully", insertedId: 1 });
-  } catch (error) {
-    console.error("Error creating user:", error);
-    res
-      .status(500)
-      .send({ message: "Internal server error", insertedId: null });
-  }
-});
+router.post("/add", verifyToken, addNewUser);
 
 // Delete User
 router.delete("/delete/:id", verifyToken, async (req, res) => {
