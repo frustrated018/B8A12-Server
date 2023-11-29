@@ -1,6 +1,8 @@
 const Product = require("../../Models/Product");
+const { ObjectId } = require("mongoose").Types;
 const AddProduct = require("../../api/v1/products/controllers/AddProducts");
 const approveProduct = require("../../api/v1/products/controllers/ApproveProduct");
+const deleteProduct = require("../../api/v1/products/controllers/DeleteProduct");
 const editProduct = require("../../api/v1/products/controllers/EditProduct");
 const downvoteProduct = require("../../api/v1/products/controllers/downvoteProduct");
 const findAllProducts = require("../../api/v1/products/controllers/findAllProducts");
@@ -28,6 +30,9 @@ router.get("/myproducts/:email", findProductByEmail);
 
 // Update product
 router.put("/editproduct/:id", editProduct);
+
+// Deleteproduct
+router.delete("/deleteproduct/:id", deleteProduct);
 
 router.get("/details/:id", findProductById);
 
