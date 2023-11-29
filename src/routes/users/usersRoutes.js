@@ -1,5 +1,4 @@
 const addNewUser = require("../../api/v1/users/controllers/addNewUser");
-const checkAdmin = require("../../api/v1/users/controllers/checkAdmin");
 const checkRole = require("../../api/v1/users/controllers/CheckRole");
 const deleteUser = require("../../api/v1/users/controllers/deleteUser");
 const getAllUsers = require("../../api/v1/users/controllers/getAllUsers");
