@@ -14,7 +14,7 @@ const router = require("express").Router();
 router.get("/", verifyToken, verifyAdmin, getAllUsers);
 
 // Add a new user
-router.post("/add", verifyToken, addNewUser);
+router.post("/add", addNewUser);
 
 // Delete User
 router.delete("/delete/:id", verifyToken, verifyAdmin, deleteUser);
