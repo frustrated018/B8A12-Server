@@ -1,0 +1,92 @@
+[
+  {
+    "verificationStatus": "unverified",
+    "_id": "6565f5ffe01228d122f72668",
+    "name": "Niloy Das",
+    "image": "https://lh3.googleusercontent.com/a/ACg8ocJHxVvix6xF8ohcOhS-UfjrfYv8u19emqAQyni_WKw7MZU=s96-c",
+    "email": "niloyd018@gmail.com",
+    "role": "admin",
+    "__v": 0
+  },
+  {
+    "verificationStatus": "unverified",
+    "_id": "6565f692e01228d122f7266f",
+    "name": "Tech_Trends_Admin",
+    "image": "https://i.ibb.co/GnDhV76/logo.png",
+    "email": "admin@techtrends.com",
+    "role": "admin",
+    "__v": 0
+  },
+  {
+    "verificationStatus": "unverified",
+    "_id": "6565fc53e01228d122f726a6",
+    "name": "James morgan mcgill",
+    "image": "https://i.ibb.co/xjQNXSx/supreme-embroidered-jacket.webp",
+    "email": "james@nothing.com",
+    "role": "moderator",
+    "__v": 0
+  },
+  {
+    "verificationStatus": "unverified",
+    "_id": "656735400ed5bec6fb7ff1a0",
+    "name": "test acc 5",
+    "image": "https://source.unsplash.com/woman-on-focus-photography-SJvDxw0azqw",
+    "email": "test5@email.com",
+    "role": "admin",
+    "__v": 0
+  },
+  {
+    "verificationStatus": "unverified",
+    "_id": "656736cd0ed5bec6fb7ff1a3",
+    "name": "test acc 1",
+    "image": "https://source.unsplash.com/man-in-black-button-up-shirt-ZHvM3XIOHoE",
+    "email": "test1@email.com",
+    "role": "moderator",
+    "__v": 0
+  },
+  {
+    "verificationStatus": "unverified",
+    "_id": "656736e20ed5bec6fb7ff1a6",
+    "name": "test acc 2",
+    "image": "https://source.unsplash.com/man-wearing-henley-top-portrait-7YVZYZeITc8",
+    "email": "test2@email.com",
+    "role": "user",
+    "__v": 0
+  },
+  {
+    "verificationStatus": "unverified",
+    "_id": "656736f50ed5bec6fb7ff1a9",
+    "name": "test acc 3",
+    "image": "https://source.unsplash.com/woman-on-focus-photography-SJvDxw0azqw",
+    "email": "test3@email.com",
+    "role": "user",
+    "__v": 0
+  },
+  {
+    "verificationStatus": "unverified",
+    "_id": "656737090ed5bec6fb7ff1ac",
+    "name": "test acc 4",
+    "image": "https://source.unsplash.com/man-in-black-button-up-shirt-ZHvM3XIOHoE",
+    "email": "test4@email.com",
+    "role": "user",
+    "__v": 0
+  },
+  {
+    "verificationStatus": "unverified",
+    "_id": "656737240ed5bec6fb7ff1af",
+    "name": "test acc 6",
+    "image": "https://source.unsplash.com/man-in-black-button-up-shirt-ZHvM3XIOHoE",
+    "email": "test6@email.com",
+    "role": "user",
+    "__v": 0
+  },
+  {
+    "verificationStatus": "unverified",
+    "_id": "656737690ed5bec6fb7ff1b2",
+    "name": "test acc 7",
+    "image": "https://source.unsplash.com/a-wooden-table-vKI5aIWnIeI",
+    "email": "test7@email.com",
+    "role": "user",
+    "__v": 0
+  }
+]

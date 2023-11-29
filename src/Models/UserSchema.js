@@ -17,6 +17,11 @@ const UserSchema = new Schema({
     type: String,
     default: "user",
   },
+  verificationStatus: {
+    type: String,
+    enum:["verified", "unverified" ],
+    default: "unverified",
+  },
 });
 
 const User = model("User", UserSchema);
