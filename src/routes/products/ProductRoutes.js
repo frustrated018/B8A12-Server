@@ -1,6 +1,7 @@
 const Product = require("../../Models/Product");
 const AddProduct = require("../../api/v1/products/controllers/AddProducts");
 const approveProduct = require("../../api/v1/products/controllers/ApproveProduct");
+const editProduct = require("../../api/v1/products/controllers/EditProduct");
 const downvoteProduct = require("../../api/v1/products/controllers/downvoteProduct");
 const findAllProducts = require("../../api/v1/products/controllers/findAllProducts");
 const findApprovedProducts = require("../../api/v1/products/controllers/findApprovedProducts");
@@ -24,6 +25,9 @@ router.post("/statusapprove/:id", approveProduct);
 
 // Find products based on email
 router.get("/myproducts/:email", findProductByEmail);
+
+// Update product
+router.put("/editproduct/:id", editProduct);
 
 router.get("/details/:id", findProductById);
 
