@@ -1,6 +1,7 @@
 const addNewUser = require("../../api/v1/users/controllers/addNewUser");
 const checkRole = require("../../api/v1/users/controllers/CheckRole");
 const deleteUser = require("../../api/v1/users/controllers/deleteUser");
+const FindUserByEmail = require("../../api/v1/users/controllers/FindUserByEmail");
 const getAllUsers = require("../../api/v1/users/controllers/getAllUsers");
 const makeAdmin = require("../../api/v1/users/controllers/makeAdmin");
 const makeModerator = require("../../api/v1/users/controllers/makeModerator");
@@ -12,6 +13,9 @@ const { ObjectId } = require("mongoose").Types;
 const router = require("express").Router();
 // get all the users in /users route
 router.get("/", verifyToken, verifyAdmin, getAllUsers);
+
+// Find user by email
+router.get("/finduserbyemail/:email", FindUserByEmail);
 
 // Add a new user
 router.post("/add", addNewUser);
