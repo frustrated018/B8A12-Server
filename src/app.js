@@ -21,6 +21,12 @@ app.use("/products", productRoutes);
 const usersRoutes = require("./routes/users/usersRoutes");
 app.use("/users", usersRoutes);
 
+
+// Reviews route
+
+
+
+
 // Payment Intent
 
 app.post("/create-payment-intent", async (req, res) => {

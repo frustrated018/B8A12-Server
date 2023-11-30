@@ -1,0 +1,38 @@
+[
+    {
+      "userName": "TechGuru123",
+      "userEmail": "techguru123@example.com",
+      "rating": 4.5,
+      "review": "I love the sleek design and the powerful camera. The battery life is impressive, and the overall performance is top-notch!",
+      "productId": "e6sdfcc0e-5esdfa0-4910-b9sdf-c012d9b1f"
+    },
+    {
+      "userName": "GeekMaster",
+      "userEmail": "geekmaster@email.com",
+      "rating": 3.8,
+      "review": "Decent phone for the price. The display is vibrant, but the camera could be better. The battery life is satisfactory.",
+      "productId": "e6sdfcc0e-5esdfa0-4910-b9sdf-c012d9b1f"
+    },
+    {
+      "userName": "CodeNinja",
+      "userEmail": "codeninja@example.net",
+      "rating": 4.2,
+      "review": "Fast and efficient. The software is clean, and the phone feels premium. The only downside is the lack of expandable storage.",
+      "productId": "e6sdfcc0e-5esdfa0-4910-b9sdf-c012d9b1f"
+    },
+    {
+      "userName": "GadgetExplorer",
+      "userEmail": "gadgetexplorer@email.com",
+      "rating": 4.7,
+      "review": "Absolutely amazing! The performance is mind-blowing, and the camera quality exceeds expectations. A flagship in every sense.",
+      "productId": "e6sdfcc0e-5esdfa0-4910-b9sdf-c012d9b1f"
+    },
+    {
+      "userName": "TechSavvyGal",
+      "userEmail": "techsavvygal@example.org",
+      "rating": 3.5,
+      "review": "Good budget option. It gets the job done without breaking the bank. The camera is average, but the battery life is surprisingly good.",
+      "productId": "e6sdfcc0e-5esdfa0-4910-b9sdf-c012d9b1f"
+    }
+  ]
+  

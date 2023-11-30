@@ -1,139 +1,61 @@
 [
   {
+    "productOwner": {
+      "name": "Tech_Trends_Admin",
+      "email": "admin@techtrends.com",
+      "image": "https://i.ibb.co/GnDhV76/logo.png"
+    },
+    "productId": "e6sdfcc0e-5esdfa0-4910-b9sdf-c012d9b1f",
     "name": "Smartphone X",
     "image": "https://source.unsplash.com/random/500x500/?tech",
     "tags": ["mobile", "smartphone", "tech", "communication"],
     "upvoteCount": 27,
     "downvoteCount": 2,
-    "timestamp": "2023-11-27",
+    "timestamp": "2023-11-27T00:00:00.000Z",
     "shortDescription": "Powerful and sleek smartphone with advanced features.",
     "longDescription": "The Smartphone X is a cutting-edge device designed for seamless communication and advanced functionality. With a powerful processor, stunning display, and innovative features, it's the perfect companion for your busy lifestyle.",
-    "productStatus": "pending",
-
-    "externalLinks": [
-      "https://example.com/link1",
-      "https://example.com/link2",
-      "https://example.com/link3"
-    ],
-    "productOwner": {
-      "name": "Tech_Trends_Admin",
-      "email": "admin@techtrends.com",
-      "image": "https://i.ibb.co/GnDhV76/logo.png"
-    }
-  },
-  {
-    "name": "Laptop Pro",
-    "image": "https://source.unsplash.com/random/500x500/?tech",
-    "tags": ["laptop", "technology", "productivity", "computing"],
-    "upvoteCount": 20,
-    "downvoteCount": 5,
-    "timestamp": "2023-11-27",
-    "shortDescription": "High-performance laptop for professional use.",
-    "longDescription": "Introducing the Laptop Pro, a powerhouse designed for professionals seeking top-notch performance. With a sleek design, high-resolution display, and advanced computing capabilities, it's your go-to device for productivity on the go.",
-    "productStatus": "pending",
-
-    "externalLinks": [
-      "https://example.com/link1",
-      "https://example.com/link2",
-      "https://example.com/link3"
-    ],
-    "productOwner": {
-      "name": "Tech_Trends_Admin",
-      "email": "admin@techtrends.com",
-      "image": "https://i.ibb.co/GnDhV76/logo.png"
-    }
-  },
-  {
-    "name": "Wireless Earbuds Pro",
-    "image": "https://source.unsplash.com/random/500x500/?tech",
-    "tags": ["audio", "earbuds", "wireless", "music"],
-    "upvoteCount": 13,
-    "downvoteCount": 3,
-    "timestamp": "2023-11-27",
-    "shortDescription": "Immersive sound experience with cutting-edge wireless technology.",
-    "longDescription": "Experience music like never before with our Wireless Earbuds Pro. These earbuds deliver a truly immersive audio experience with the latest wireless technology, ensuring crystal-clear sound and ultimate comfort for extended listening sessions.",
     "productStatus": "approved",
     "externalLinks": [
       "https://example.com/link1",
       "https://example.com/link2",
       "https://example.com/link3"
-    ],
+    ]
+  },
+  {
     "productOwner": {
       "name": "Tech_Trends_Admin",
       "email": "admin@techtrends.com",
       "image": "https://i.ibb.co/GnDhV76/logo.png"
-    }
-  },
-  {
-    "name": "Gaming Console X",
-    "image": "https://source.unsplash.com/random/500x500/?tech",
-    "tags": ["gaming", "console", "entertainment", "technology"],
-    "upvoteCount": 27,
-    "downvoteCount": 6,
-    "timestamp": "2023-11-27",
-    "shortDescription": "Next-gen gaming console for an unparalleled gaming experience.",
-    "longDescription": "Immerse yourself in the world of gaming with the Gaming Console X. Boasting next-gen graphics and powerful performance, this console delivers an unparalleled gaming experience. Get ready for breathtaking visuals and responsive gameplay like never before.",
-    "productStatus": "approved",
-    "externalLinks": [
-      "https://example.com/link1",
-      "https://example.com/link2",
-      "https://example.com/link3"
-    ],
-    "productOwner": {
-      "name": "Tech_Trends_Admin",
-      "email": "admin@techtrends.com",
-      "image": "https://i.ibb.co/GnDhV76/logo.png"
-    }
-  },
-  {
+    },
+    "productId": "e627hgsfghc0e-5ec0-4910-b9ab-c01fcdadsf9b1f",
     "name": "Smart Watch Pro",
     "image": "https://source.unsplash.com/random/500x500/?tech",
     "tags": ["wearable", "smartwatch", "fitness", "health"],
     "upvoteCount": 18,
     "downvoteCount": 4,
-    "timestamp": "2023-11-27",
+    "timestamp": "2023-11-27T00:00:00.000Z",
     "shortDescription": "Advanced smartwatch with health and fitness tracking features.",
     "longDescription": "Elevate your fitness journey with the Smart Watch Pro. This advanced smartwatch not only keeps you connected but also monitors your health and fitness in real-time. Stay motivated with personalized insights and achieve your wellness goals effortlessly.",
-    "productStatus": "approved",
+    "productStatus": "pending",
     "externalLinks": [
       "https://example.com/link1",
       "https://example.com/link2",
       "https://example.com/link3"
-    ],
+    ]
+  },
+  {
     "productOwner": {
       "name": "Tech_Trends_Admin",
       "email": "admin@techtrends.com",
       "image": "https://i.ibb.co/GnDhV76/logo.png"
-    }
-  },
-  {
-    "name": "Apple Watch",
-    "image": "https://source.unsplash.com/black-smart-watch-with-black-strap-2wFoa040m8g",
-    "tags": ["tech", "Watch", "Apple"],
-    "upvoteCount": 11,
-    "downvoteCount": 6,
-    "timestamp": "11/28/2023",
-    "shortDescription": "The new Apple smartwatch",
-    "longDescription": "The Apple Watch is a sleek and sophisticated smartwatch designed to seamlessly integrate with your active lifestyle. Offering a harmonious blend of fashion and functionality, this innovative device serves as an extension of your iPhone, providing instant access to notifications, fitness tracking, and a myriad of apps right from your wrist. With a stunning Retina display, advanced health monitoring features, and a customizable design, the Apple Watch is not just a timepiece but a versatile companion that empowers you to stay connected, motivated, and in control throughout your day.",
-    "productStatus": "approved",
-    "externalLinks": [
-      "https://example.com/link1",
-      "https://example.com/link2",
-      "https://example.com/link3"
-    ],
-    "productOwner": {
-      "name": "Tech_Trends_Admin",
-      "email": "admin@techtrends.com",
-      "image": "https://i.ibb.co/GnDhV76/logo.png"
-    }
-  },
-  {
+    },
+    "productId": "e627cc0e-5ec0-4910-b9ab-c01fcd2d9b1f",
     "name": "Realme 5i",
     "image": "https://source.unsplash.com/white-smartphone-near-laptop-xsGxhtAsfSA",
     "tags": ["tech", "phone", "New"],
     "upvoteCount": 4,
     "downvoteCount": 5,
-    "timestamp": "11/28/2023",
+    "timestamp": "2023-11-27T18:00:00.000Z",
     "shortDescription": "A world of difference.",
     "longDescription": "The Realme 5i is a budget-friendly smartphone that combines impressive features with affordability. Boasting a sleek and modern design, the device features a 6.5-inch IPS LCD display with a resolution of 720 x 1600 pixels, providing vibrant colors and sharp visuals for an immersive viewing experience.",
     "productStatus": "approved",
@@ -141,20 +63,43 @@
       "https://example.com/link1",
       "https://example.com/link2",
       "https://example.com/link3"
-    ],
+    ]
+  },
+  {
     "productOwner": {
       "name": "Tech_Trends_Admin",
       "email": "admin@techtrends.com",
       "image": "https://i.ibb.co/GnDhV76/logo.png"
-    }
+    },
+    "productId": "e627fad0e-5ec0-4910-b9ab-c01fafdfa2d9b1f",
+    "name": "Laptop Pro",
+    "image": "https://source.unsplash.com/random/500x500/?tech",
+    "tags": ["laptop", "technology", "productivity", "computing"],
+    "upvoteCount": 20,
+    "downvoteCount": 5,
+    "timestamp": "2023-11-27T00:00:00.000Z",
+    "shortDescription": "High-performance laptop for professional use.",
+    "longDescription": "Introducing the Laptop Pro, a powerhouse designed for professionals seeking top-notch performance. With a sleek design, high-resolution display, and advanced computing capabilities, it's your go-to device for productivity on the go.",
+    "productStatus": "approved",
+    "externalLinks": [
+      "https://example.com/link1",
+      "https://example.com/link2",
+      "https://example.com/link3"
+    ]
   },
   {
+    "productOwner": {
+      "name": "Tech_Trends_Admin",
+      "email": "admin@techtrends.com",
+      "image": "https://i.ibb.co/GnDhV76/logo.png"
+    },
+    "productId": "e627cfade-5ec0-4910-b9ab-c0adfd2d9b1f",
     "name": "iPhone X",
     "image": "https://source.unsplash.com/silver-iphone-x-floating-over-open-palm-6wdRuK7bVTE",
     "tags": ["tech", "phone", "iPhone", "Apple"],
     "upvoteCount": 6,
     "downvoteCount": 6,
-    "timestamp": "11/28/2023",
+    "timestamp": "2023-11-27T18:00:00.000Z",
     "shortDescription": "The iPhone X is a milestone in smartphone design, featuring an edge-to-edge Super Retina display, Face ID authentication, and a dual-camera system for advanced photography.",
     "longDescription": "The iPhone X, released in 2017, is a groundbreaking smartphone by Apple that marked the 10th anniversary of the iPhone series. It features a stunning 5.8-inch Super Retina display with OLED technology, providing vibrant colors and deep blacks. The phone's design is characterized by its edge-to-edge display and the absence of a physical home button, replaced by Face ID facial recognition for secure authentication. Powered by the A11 Bionic chip, the iPhone X delivers impressive performance and supports augmented reality experiences. Its dual-camera system on the back enables advanced photography capabilities, including Portrait mode and optical zoom. With a sleek glass and stainless-steel construction, the iPhone X embodies a modern and premium aesthetic, showcasing Apple's commitment to innovation in both design and technology.",
     "productStatus": "approved",
@@ -162,20 +107,21 @@
       "https://example.com/link1",
       "https://example.com/link2",
       "https://example.com/link3"
-    ],
+    ]
+  },
+  {
     "productOwner": {
       "name": "Tech_Trends_Admin",
       "email": "admin@techtrends.com",
       "image": "https://i.ibb.co/GnDhV76/logo.png"
-    }
-  },
-  {
+    },
+    "productId": "e62fadsfc0e-adc0-4910-bfadfab-c01fcd2d9b1f",
     "name": "Macbook Air",
     "image": "https://source.unsplash.com/macbook-pro-on-white-table-35DopK36wzw",
     "tags": ["tech", "laptop", "MacBook", "Apple"],
     "upvoteCount": 0,
     "downvoteCount": 0,
-    "timestamp": "11/28/2023",
+    "timestamp": "2023-11-27T18:00:00.000Z",
     "shortDescription": "The MacBook Air is a sleek and lightweight laptop, known for its stunning Retina display, powerful performance, and all-day battery life.",
     "longDescription": "The MacBook Air is a flagship laptop from Apple, renowned for its exceptional combination of portability and performance. With a razor-thin design, it features a brilliant Retina display that brings content to life with vibrant colors and sharp details. The MacBook Air is powered by Apple's custom M1 chip, delivering impressive speed and efficiency for everyday tasks and creative endeavors. Its Magic Keyboard ensures a comfortable and responsive typing experience, while the Force Touch trackpad enhances navigation. Equipped with all-day battery life, the MacBook Air is the perfect companion for professionals, students, and anyone seeking a premium computing experience in a compact form factor. Whether you're working on documents, editing photos, or streaming content, the MacBook Air seamlessly blends power and style in a portable package.",
     "productStatus": "approved",
@@ -183,11 +129,108 @@
       "https://example.com/link1",
       "https://example.com/link2",
       "https://example.com/link3"
-    ],
+    ]
+  },
+  {
     "productOwner": {
       "name": "Tech_Trends_Admin",
       "email": "admin@techtrends.com",
       "image": "https://i.ibb.co/GnDhV76/logo.png"
-    }
+    },
+    "productId": "e62fdac0e-5ec0-4910-b9ab-c01d2d9b1f",
+    "name": "Wireless Earbuds Pro",
+    "image": "https://source.unsplash.com/random/500x500/?tech",
+    "tags": ["audio", "earbuds", "wireless", "music"],
+    "upvoteCount": 13,
+    "downvoteCount": 3,
+    "timestamp": "2023-11-27T00:00:00.000Z",
+    "shortDescription": "Immersive sound experience with cutting-edge wireless technology.",
+    "longDescription": "Experience music like never before with our Wireless Earbuds Pro. These earbuds deliver a truly immersive audio experience with the latest wireless technology, ensuring crystal-clear sound and ultimate comfort for extended listening sessions.",
+    "productStatus": "approved",
+    "externalLinks": [
+      "https://example.com/link1",
+      "https://example.com/link2",
+      "https://example.com/link3"
+    ]
+  },
+  {
+    "productOwner": {
+      "name": "Tech_Trends_Admin",
+      "email": "admin@techtrends.com",
+      "image": "https://i.ibb.co/GnDhV76/logo.png"
+    },
+    "productId": "efda7cc0e-5ec0-491afd-b9ab-c01dfa2d9b1f",
+    "name": "Gaming Console X",
+    "image": "https://source.unsplash.com/random/500x500/?tech",
+    "tags": ["gaming", "console", "entertainment", "technology"],
+    "upvoteCount": 27,
+    "downvoteCount": 6,
+    "timestamp": "2023-11-27T00:00:00.000Z",
+    "shortDescription": "Next-gen gaming console for an unparalleled gaming experience.",
+    "longDescription": "Immerse yourself in the world of gaming with the Gaming Console X. Boasting next-gen graphics and powerful performance, this console delivers an unparalleled gaming experience. Get ready for breathtaking visuals and responsive gameplay like never before.",
+    "productStatus": "approved",
+    "externalLinks": [
+      "https://example.com/link1",
+      "https://example.com/link2",
+      "https://example.com/link3"
+    ]
+  },
+  {
+    "productOwner": {
+      "name": "Tech_Trends_Admin",
+      "email": "admin@techtrends.com",
+      "image": "https://i.ibb.co/GnDhV76/logo.png"
+    },
+    "productId": "e627cffadsc0e-5ec0-4910-b9ab-c01ffdaf2d9b1f",
+    "name": "Apple Watch",
+    "image": "https://source.unsplash.com/black-smart-watch-with-black-strap-2wFoa040m8g",
+    "tags": ["tech", "Watch", "Apple"],
+    "upvoteCount": 11,
+    "downvoteCount": 6,
+    "timestamp": "2023-11-27T18:00:00.000Z",
+    "shortDescription": "The new Apple smartwatch",
+    "longDescription": "The Apple Watch is a sleek and sophisticated smartwatch designed to seamlessly integrate with your active lifestyle. Offering a harmonious blend of fashion and functionality, this innovative device serves as an extension of your iPhone, providing instant access to notifications, fitness tracking, and a myriad of apps right from your wrist. With a stunning Retina display, advanced health monitoring features, and a customizable design, the Apple Watch is not just a timepiece but a versatile companion that empowers you to stay connected, motivated, and in control throughout your day.",
+    "productStatus": "approved",
+    "externalLinks": [
+      "https://example.com/link1",
+      "https://example.com/link2",
+      "https://example.com/link3"
+    ]
+  },
+  {
+    "productOwner": {
+      "name": "James morgan mcgill",
+      "email": "james@nothing.com",
+      "image": "https://i.ibb.co/xjQNXSx/supreme-embroidered-jacket.webp"
+    },
+    "productId": "e6270e-5ecfdf0-4910-b9ab-c01fcd2d9b1f",
+    "name": "Fitbit 4.0",
+    "image": "https://source.unsplash.com/activity-tracker-reading-11-36-mo-21-QRWAdBCqysc",
+    "tags": ["tech", "smart watch", "fitbit"],
+    "upvoteCount": 0,
+    "downvoteCount": 0,
+    "timestamp": "2023-11-28T18:00:00.000Z",
+    "shortDescription": " Fitbit is a wearable fitness tracker that monitors activity, sleep, and heart rate, providing real-time data to help users achieve their health and wellness goals.",
+    "longDescription": " Fitbit is a cutting-edge wearable device designed to track and analyze various aspects of an individual's health and fitness. This sleek device offers comprehensive monitoring, including step count, distance traveled, calories burned, and active minutes, providing users with valuable insights into their daily activity levels. With advanced sleep tracking capabilities, Fitbit helps users improve their sleep quality by offering personalized recommendations. Additionally, the built-in heart rate monitor enables continuous tracking during workouts, ensuring users can optimize their exercise routines. Syncing seamlessly with smartphones, Fitbit empowers individuals to make informed decisions about their well-being, fostering a healthier and more active lifestyle.\n\n\n\n\n\n",
+    "productStatus": "pending",
+    "externalLinks": ["https://example.com", "https://testlink.com"]
+  },
+  {
+    "productOwner": {
+      "name": "James morgan mcgill",
+      "email": "james@nothing.com",
+      "image": "https://i.ibb.co/xjQNXSx/supreme-embroidered-jacket.webp"
+    },
+    "productId": "e627cc0e-5ec0-4910-b9ab-c0cd4f229b1f",
+    "name": "Test product",
+    "image": "https://source.unsplash.com/a-bull-with-horns-standing-in-a-field-of-bushes-4p0thVfH--k",
+    "tags": ["tech", "fads", "fasd", "afsdf"],
+    "upvoteCount": 0,
+    "downvoteCount": 0,
+    "timestamp": "2023-11-28T18:00:00.000Z",
+    "shortDescription": "Test description ",
+    "longDescription": "Test description ",
+    "productStatus": "pending",
+    "externalLinks": ["    http://example.com", "http://testsite.com"]
   }
 ]
