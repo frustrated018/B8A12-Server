@@ -1,12 +1,14 @@
 const Product = require("../../Models/Product");
 const { ObjectId } = require("mongoose").Types;
 const AddProduct = require("../../api/v1/products/controllers/AddProducts");
+const AllReportedProducts = require("../../api/v1/products/controllers/AllReportedProducts");
 const approveProduct = require("../../api/v1/products/controllers/ApproveProduct");
 const deleteProduct = require("../../api/v1/products/controllers/DeleteProduct");
 const editProduct = require("../../api/v1/products/controllers/EditProduct");
 const FindProductByTag = require("../../api/v1/products/controllers/FindProductByTag");
 const SortedByDate = require("../../api/v1/products/controllers/SortedByDate");
 const SortedByVote = require("../../api/v1/products/controllers/SortedByVote");
+const changeReportedStatus = require("../../api/v1/products/controllers/changeReportedStatus");
 const downvoteProduct = require("../../api/v1/products/controllers/downvoteProduct");
 const findAllProducts = require("../../api/v1/products/controllers/findAllProducts");
 const findApprovedProducts = require("../../api/v1/products/controllers/findApprovedProducts");
@@ -18,6 +20,12 @@ const upvoteProduct = require("../../api/v1/products/controllers/upvoteProduct")
 const router = require("express").Router();
 
 router.get("/", findAllProducts);
+
+// Get products with reported status
+router.get("/reportedproducts", AllReportedProducts);
+
+// Change reported status of a product
+router.post("/markreported/:id", changeReportedStatus);
 
 // Sorted by date
 router.get("/sortedbydate", SortedByDate);

@@ -9,8 +9,8 @@ const ProductSchema = new Schema({
     type: String,
     required: true,
   },
-  productId:{
-    type:String,
+  productId: {
+    type: String,
     required: true,
     unique: true,
   },
@@ -57,6 +57,14 @@ const ProductSchema = new Schema({
     image: {
       type: String,
     },
+  },
+  reportedStatus: {
+    type: String,
+    default: "not reported",
+  },
+  featuredStatus: {
+    type: String,
+    default: "not featured",
   },
 });
 
