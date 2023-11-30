@@ -21,11 +21,9 @@ app.use("/products", productRoutes);
 const usersRoutes = require("./routes/users/usersRoutes");
 app.use("/users", usersRoutes);
 
-
 // Reviews route
-
-
-
+const reviewRoutes = require("./routes/reviews/reviewRoutes");
+app.use("/reviews", reviewRoutes);
 
 // Payment Intent
 
@@ -39,8 +37,8 @@ app.post("/create-payment-intent", async (req, res) => {
     payment_method_types: ["card"],
   });
   res.send({
-    clientSecret: paymentIntent.client_secret
-  })
+    clientSecret: paymentIntent.client_secret,
+  });
 });
 
 app.get("/health", (req, res) => {
