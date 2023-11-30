@@ -4,6 +4,7 @@ const AddProduct = require("../../api/v1/products/controllers/AddProducts");
 const approveProduct = require("../../api/v1/products/controllers/ApproveProduct");
 const deleteProduct = require("../../api/v1/products/controllers/DeleteProduct");
 const editProduct = require("../../api/v1/products/controllers/EditProduct");
+const FindProductByTag = require("../../api/v1/products/controllers/FindProductByTag");
 const SortedByDate = require("../../api/v1/products/controllers/SortedByDate");
 const SortedByVote = require("../../api/v1/products/controllers/SortedByVote");
 const downvoteProduct = require("../../api/v1/products/controllers/downvoteProduct");
@@ -23,6 +24,9 @@ router.get("/sortedbydate", SortedByDate);
 
 // sorted by vote
 router.get("/sortedbyvote", SortedByVote);
+
+// Find Product By Tag
+router.get("/findproductbytag", FindProductByTag);
 
 // find approved products
 router.get("/approvedproducts", findApprovedProducts);
