@@ -1,6 +1,6 @@
 const express = require("express");
 const applyMiddlewares = require("./middlewares/applyMiddlewares");
-const connectDB = require("./DB/connectDB");
+const connectDB = require("./DB/connectDB"); 
 require("dotenv").config();
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const app = express();
@@ -45,11 +45,13 @@ app.get("/health", (req, res) => {
   res.send("Tech trends is predicting trends....");
 });
 
-const main = async () => {
-  await connectDB();
-  app.listen(port, () => {
-    console.log(`Tech trends server is running on port ${port}`);
-  });
-};
+// const main = async () => {
+//   await connectDB();
+//   app.listen(port, () => {
+//     console.log(`Tech trends server is running on port ${port}`);
+//   });
+// };
 
-main();
+// main();
+
+module.exports = app

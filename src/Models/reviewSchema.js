@@ -5,15 +5,17 @@ const ReviewSchema = new Schema({
     type: String,
     required: true,
   },
-  productId:{
-    type:String,
+  productId: {
+    type: String,
     required: true,
-    unique: true,
   },
   userEmail: {
     type: String,
     required: true,
-    unique: true,
+  },
+  userImage: {
+    type: String,
+    required: true,
   },
   rating: {
     type: Number,
