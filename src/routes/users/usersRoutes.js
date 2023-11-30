@@ -5,6 +5,7 @@ const FindUserByEmail = require("../../api/v1/users/controllers/FindUserByEmail"
 const getAllUsers = require("../../api/v1/users/controllers/getAllUsers");
 const makeAdmin = require("../../api/v1/users/controllers/makeAdmin");
 const makeModerator = require("../../api/v1/users/controllers/makeModerator");
+const verificationStatusUpdate = require("../../api/v1/users/controllers/verificationStatusUpdate");
 const verifyAdmin = require("../../middlewares/verifyAdmin");
 const verifyToken = require("../../middlewares/verifyToken");
 const User = require("../../Models/UserSchema");
@@ -15,7 +16,14 @@ const router = require("express").Router();
 router.get("/", verifyToken, verifyAdmin, getAllUsers);
 
 // Find user by email
-router.get("/finduserbyemail/:email", FindUserByEmail);
+router.get("/finduserbyemail/:email", FindUserByEmail); // something wrong with verify token in this
+
+// Update user verification status by email
+router.patch(
+  "/updateverification/:email",
+  verifyToken,
+  verificationStatusUpdate
+);
 
 // Add a new user
 router.post("/add", addNewUser);
