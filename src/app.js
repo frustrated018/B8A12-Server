@@ -1,6 +1,6 @@
 const express = require("express");
 const applyMiddlewares = require("./middlewares/applyMiddlewares");
-const connectDB = require("./DB/connectDB"); 
+const connectDB = require("./DB/connectDB");
 require("dotenv").config();
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const app = express();
@@ -20,6 +20,10 @@ app.use("/products", productRoutes);
 // Users route
 const usersRoutes = require("./routes/users/usersRoutes");
 app.use("/users", usersRoutes);
+
+// Cupons route
+const couponsRoutes = require("./routes/Coupons/Coupons");
+app.use("/coupons", couponsRoutes);
 
 // Reviews route
 const reviewRoutes = require("./routes/reviews/reviewRoutes");
@@ -54,4 +58,4 @@ app.get("/health", (req, res) => {
 
 // main();
 
-module.exports = app
+module.exports = app;
